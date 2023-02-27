@@ -3,17 +3,17 @@
   "short_name": "Starter Kit",
   "icons": [
     {
-      "src": "/favicon.png",
+      "src": "/bonfire2.png",
       "type": "image/png",
       "sizes": "32x32"
     },
     {
-      "src": "/favicon.png",
+      "src": "/bonfire2.png",
       "type": "image/png",
       "sizes": "128x128"
     },
     {
-      "src": "/favicon.png",
+      "src": "/bonfire2.png",
       "type": "image/png",
       "sizes": "192x192"
     }
