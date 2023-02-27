@@ -9,8 +9,8 @@ export default siteConfig({
   rootNotionSpaceId: 'addpd',
 
   // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  name: 'weihao',
+  domain: 'weihao.life',
   author: 'weihao',
 
   // open graph metadata (optional)
