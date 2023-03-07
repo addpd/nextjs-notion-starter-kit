@@ -17,6 +17,10 @@
   line-height: 1.65;
 }
 
+.notion-page-scroller{
+  margin-top:54px;
+}
+
 .index-page {
   --notion-max-width: 900px;
 }
@@ -41,7 +45,7 @@
 
 .notion-header .notion-nav-header {
   max-width: 1100px;
-  margin: 54px auto 0;
+  margin: 0 auto;
 }
 
 .notion-nav-header-rhs {
@@ -355,6 +359,7 @@
 .notion-header {
   background: hsla(0, 0%, 100%, 0.8);
   backdrop-filter: saturate(180%) blur(16px);
+  position: fixed;
 }
 
 .dark-mode .notion-header {
@@ -373,7 +378,7 @@
 .notion-bookmark:hover {
   /* border-image: linear-gradient(90.68deg, #b439df 0.26%, #e5337e 102.37%); */
   /* 法环 */
-  border-image: linear-gradient(90.68deg,#D5D0B2.26%,#B8B58B 102.37%);
+  /* border-image: linear-gradient(90.68deg,#D5D0B2.26%,#B8B58B 102.37%); */
   /* 月光大剑 */
   border-image: linear-gradient(90.68deg,#88D1B9.26%,#34524D 102.37%);
   border-image-slice: 1;
