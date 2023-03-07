@@ -43,7 +43,7 @@ export const NotionPageHeader: React.FC<{
   }
 
   return (
-    <header className='notion-header' style="position:fixed;">
+    <header className='notion-header'>
       <div className='notion-nav-header'>
         <Breadcrumbs block={block} rootOnly={true} />
 
