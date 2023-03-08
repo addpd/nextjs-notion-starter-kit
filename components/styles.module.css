@@ -65,13 +65,6 @@
   user-select: none;
 }
 
-.settings{
-  /* 居中 */
-  position: absolute;
-  right: 50%;
-  transform: translateX(50%);
-}
-
 .settings a,
 .social a {
   cursor: pointer;
