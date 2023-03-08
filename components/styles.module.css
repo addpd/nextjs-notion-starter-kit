@@ -63,6 +63,9 @@
 .settings,
 .social {
   user-select: none;
+}
+
+.settings{
   /* 居中 */
   position: absolute;
   right: 50%;
