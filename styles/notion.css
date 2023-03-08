@@ -356,6 +356,17 @@
   /* border-radius: 50%; */
 }
 
+/* 主页的图片成圆形 */
+.index-page .notion-page-icon-hero.notion-page-icon-image {
+  border-radius: 50%;
+}
+
+.index-page .notion-page-icon-hero.notion-page-icon-image span,
+.index-page .notion-page-icon-hero.notion-page-icon-image img {
+  border-radius: 50%;
+}
+/* 主页的图片成圆形 over */
+
 .notion-header {
   background: hsla(0, 0%, 100%, 0.8);
   backdrop-filter: saturate(180%) blur(16px);
