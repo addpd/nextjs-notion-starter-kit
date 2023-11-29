@@ -19,7 +19,7 @@ import 'styles/notion.css'
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
 // google analytics
-import { initializeAnalytics, trackPageView } from './api/analyticstics';
+import { initializeAnalytics, trackPageView } from './api/analytics';
 
 import { bootstrap } from '@/lib/bootstrap-client'
 import {
