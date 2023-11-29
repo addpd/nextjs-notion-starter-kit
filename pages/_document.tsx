@@ -18,6 +18,7 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
+            <script async src="https://analytics.eu.umami.is/script.js" data-website-id="c3977945-59ab-44f7-8997-27ae20bc8d60"></script>``
           </Head>
 
           <body>
