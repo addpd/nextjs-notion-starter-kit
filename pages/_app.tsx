@@ -18,6 +18,8 @@ import 'styles/global.css'
 import 'styles/notion.css'
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
+// google analytics
+import { initializeAnalytics, trackPageView } from './analytics';
 
 import { bootstrap } from '@/lib/bootstrap-client'
 import {
@@ -36,6 +38,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter()
 
   React.useEffect(() => {
+    initializeAnalytics();
     function onRouteChangeComplete() {
       if (fathomId) {
         Fathom.trackPageview()
@@ -54,7 +57,10 @@ export default function App({ Component, pageProps }: AppProps) {
       posthog.init(posthogId, posthogConfig)
     }
 
+
     router.events.on('routeChangeComplete', onRouteChangeComplete)
+
+    trackPageView(router.pathname);
 
     return () => {
       router.events.off('routeChangeComplete', onRouteChangeComplete)
