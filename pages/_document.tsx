@@ -18,7 +18,20 @@ export default class MyDocument extends Document {
             />
 
             <link rel='manifest' href='/manifest.json' />
-            <script async src="https://analytics.eu.umami.is/script.js" data-website-id="c3977945-59ab-44f7-8997-27ae20bc8d60"></script>``
+            {/* umammi  analytics*/}
+            <script async src="https://analytics.eu.umami.is/script.js" data-website-id="c3977945-59ab-44f7-8997-27ae20bc8d60"></script>
+            {/* google analytics start */}
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-DKBZJ613CB"></script>
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-DKBZJ613CB');`
+              }}
+            />
+            {/* google analytics end */}
           </Head>
 
           <body>
