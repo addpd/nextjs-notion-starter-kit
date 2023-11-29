@@ -19,7 +19,14 @@ export default class MyDocument extends Document {
 
             <link rel='manifest' href='/manifest.json' />
           </Head>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-DKBZJ613CB"></script>
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
+            gtag('config', 'G-DKBZJ613CB');
+          </script>
           <body>
             <script
               dangerouslySetInnerHTML={{
