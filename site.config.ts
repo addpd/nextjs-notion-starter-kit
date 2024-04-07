@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'd6ac0c29450d452bb39eca1abd9172e9',//浣跨敤 process.env.NOTION_PAGE_ID 鍥剧墖浼氭樉绀轰笉鍑烘潵
+  rootNotionPageId: 'd6ac0c29450d452bb39eca1abd9172e9',//使用 process.env.NOTION_PAGE_ID 图片会显示不出来
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -49,7 +49,7 @@ export default siteConfig({
   pageUrlOverrides: null,
 
   // whether to use the default notion navigation style or a custom one with links to
-  // important pages
+  // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
   // navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
